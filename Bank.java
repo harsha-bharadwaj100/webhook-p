@@ -22,7 +22,7 @@ public class Bank {
         Bank bank = new Bank();
         bank.deposit(2000);
         System.out.println("Balance after deposit: " + bank.getBalance());
-        bank.withdraw(500);
+        bank.withdraw(800);
         System.out.println("Balance after withdrawal: " + bank.getBalance());
     }
 }
